@@ -73,13 +73,7 @@ With Prushal Technology, clients can trust that their brand is in good hands. We
 </div>
 </div>
 
-<div class="content-block">
-<img src="img6.png" class="img6" alt=""/>
-<div class="text-content">
-   <h3>200+ Plantation in 1 week</h3>
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-</div>
-</div>
+
 </div>
 
 </div>
@@ -88,43 +82,9 @@ With Prushal Technology, clients can trust that their brand is in good hands. We
 <img src="img9.jpg" class="img7" alt=""width = '33.33%'/> */}
 <div className='cards'>
 
-<div className=' card-check'> 
-<div className='c1'>
-<img src="img7.jpg" class="img7" alt="" width = '33.33%'/>
-<div className='overlay'>
 
 
-<h2>Mission 40K: Tree plantation</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-<button className='button1'>See More</button>    
-</div> 
-</div>
-</div>
 
-<div className=' card-check'> 
-<div className='c1'>
-<img src="img8.jpg" class="img7" alt="" width = '33.33%'/>
-<div className='overlay'>
-
-
-<h2>Mission 40K: Tree plantation</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-<button className='button1'>See More</button>    
-</div> 
-</div>
-</div>
-<div className=' card-check'> 
-<div className='c1'>
-<img src="img9.jpg" class="img7" alt="" width = '33.33%'/>
-<div className='overlay'>
-
-
-<h2>Mission 40K: Tree plantation</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
-<button className='button1'>See More</button>    
-</div> 
-</div>
-</div>
 
 </div>
 
@@ -132,16 +92,7 @@ With Prushal Technology, clients can trust that their brand is in good hands. We
 
 
 
-<div className="image-container">
-   <img src="img4.jpg" className="img4" alt="" width="85%" />
-   <div className="overlay-content1">
-       <h2>You can contribute to make the environment greener!</h2>
-       <div className="buttons">
-           <button>Button 1</button>
-           <button className='button-white'>Button 2</button>
-       </div>
-   </div>
-</div>
+
    
        
     </div>

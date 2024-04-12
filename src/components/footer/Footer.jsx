@@ -2,6 +2,13 @@ import React from 'react'
 import './footer.css'
 import { Link } from 'react-router-dom';
 export const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+    
   return (
     <div className="footer_class">
     <footer className="Footer">
@@ -13,15 +20,15 @@ export const Footer = () => {
       
          <h4>Our Team</h4>
       
-        <p> <Link className= "Link_footer" to="/about">About Us</Link></p>
+        <p> <Link   onClick={scrollToTop}  className= "Link_footer" to="/about">About Us</Link></p>
         <p>
-        <Link className= "Link_footer"to='/contact'>Contact Us</Link>
+        <Link   onClick={scrollToTop} className= "Link_footer"to='/contact'>Contact Us</Link>
         </p>
         <p>
-        <Link className= "Link_footer"to="/blogs">Blogs</Link>
+        <Link  onClick={scrollToTop} className= "Link_footer"to="/blogs">Blogs</Link>
         </p>
         <p>
-        <Link className= "Link_footer"to='/services'>What We Do</Link>
+        <Link  onClick={scrollToTop}  className= "Link_footer"to='/services'>What We Do</Link>
         </p>
         
         
@@ -33,15 +40,20 @@ export const Footer = () => {
         <h4>More</h4>
         <p>Projects</p>
         <p>Events</p>
-        <p>Blog</p>
+        <p>  <Link   className='Link_footer' to="/blogs">Blogs</Link></p>
+       
+          
+        
+
         <p>Donate</p>
       </div>
       <div className="Column">
         <h4>Connect</h4>
-        <p>LinkedIn</p>
-        <p>Instagram</p>
-        <p>Twitter</p>
-        <p>Facebook</p>
+        <p  ><a   className='Link_footer' href="https://www.linkedin.com/company/prushal-technology-pvt-ltd">LinkedIn</a></p>
+<p><a  className='Link_footer' href="https://www.instagram.com/prushaltech/">Instagram</a></p>
+<p><a  className='Link_footer'href="https://twitter.com/Prushaltech">Twitter</a></p>
+<p><a   className='Link_footer'href="https://www.facebook.com/prushal">Facebook</a></p>
+
       </div>
       <div className="Subscribe">
         <h2>Subscribe to get latest updates</h2>
