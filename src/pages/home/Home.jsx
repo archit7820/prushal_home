@@ -8,8 +8,14 @@ import { BiSolidBrain } from "react-icons/bi";
 import { BiSupport } from "react-icons/bi";
 import { FaCircleArrowRight } from "react-icons/fa6";
 
-
 const Home = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+    
   return (
     <div className='Home'>
       <div className='landing'>
@@ -48,7 +54,7 @@ digital environment but also thrive wand prosper in the face of ever-evolving ch
 </div>
 
 </div> 
-<Link className='link' to="/about"> <div className="landing1button">Learn more</div></Link>
+<Link className='link'  onClick={scrollToTop}  to="/about"> <div className="landing1button">Learn more</div></Link>
 
 </div>
 
@@ -87,7 +93,7 @@ digital environment but also thrive wand prosper in the face of ever-evolving ch
             </div>
             <div className='landing2text1'>
             <div className='icon1'><BiSupport/></div>
-            Fostert a client-centric mindset within your team, offering exceptional support.
+            Foster a client-centric mindset within your team, offering exceptional support.
             </div>
         </div>
         </div>
@@ -107,19 +113,19 @@ digital environment but also thrive wand prosper in the face of ever-evolving ch
                     <img className='webdevimg' src ="./webdev.png" alt = "" />
                 <div className="webdevhead">Web Development</div>
                 <div className='webdevcontent'>We specialize in creating iconic brands from ideas, collaborating closely for resonance and success in a dynamic marketplace.</div>
-                <button className="webdevbutton">See more</button>
+                <Link to='/webdevelopment' onClick={scrollToTop}   className='Link' ><button className="webdevbutton">See more</button></Link>
             </div>
             <div className="data">
             <img className='data_img' src ="./data.png" alt = "" />
             <div className="datahead">Data and Analytical Services</div>
             <div className='datacontent'>Unlock business potential with innovative analytics services. We reveal actionable insights, revolutionizing your business.</div>
-            <button className="databutton">See more</button>
+            <Link to='/data_analytics'  onClick={scrollToTop}   className='Link' > <button className="databutton">See more</button> </Link>
             </div>
             <div className="brand">
             <img className='brand_image' src ="./brandcrea.png" alt = "" />
             <div className="brandhead">Brand Creation and Brand Management</div>
             <div className='brandcontent'>Expert brand management and creation services to establish and enhance your brand's identity and presence effectively.</div>
-            <button className="brandbutton">See more</button>
+            <Link to='/brand_management' onClick={scrollToTop}   className='Link' ><button className="webdevbutton">See more</button></Link>
             </div>
         </div>
   </div>
@@ -130,8 +136,8 @@ digital environment but also thrive wand prosper in the face of ever-evolving ch
       <div className="joinus_bg_img"> <img  className='joinusbg' src="/joinus.png" alt="" /></div>
       <div className='contentjoin'>Need Help With The Brand Creation? We specialize in the end-to-end journey of brand creation and management. Let Us Help You Simplify the Process.</div>
       <div className='buttons_landing4'>
-        <button className='first_landing4'>Contact Us</button>
-        <button className='second_landing4'>Help</button>
+        <Link to ="/contact" onClick={scrollToTop} ><button className='first_landing4'>Contact Us</button></Link>
+        <Link to ="/contact" onClick={scrollToTop} > <button className='second_landing4'>Help</button></Link>
       </div>
     </div>
   </div>
@@ -149,34 +155,47 @@ digital environment but also thrive wand prosper in the face of ever-evolving ch
 
 
         <div className='newletter_section'>
-          <div className="newsletter_img_and_desc">
-          <img  className="newsletter_img" src="./newsletter1.png" alt="" />
-          <div className="newsletter_desc">How to help engineers make time for on-the-job training</div>
-        </div>
+        <Link  to="https://www.linkedin.com/pulse/github-git-complete-guide-indeedinspiring/?trackingId=lRoZy5FXM5F%2FeHXd8TfNDg%3D%3D" target="_blank" rel="noopener noreferrer">
+    <div className="newsletter_img_and_desc">
+        <img className="newsletter_img" src="./newsletter1.png" alt="" />
+        <div className="newsletter_desc">How to help engineers make time for on-the-job training</div>
+    </div>
+</Link>
         </div>
 
-
-        <div className='newletter_section'>
-        <div className="newsletter_img_and_desc">
-        <img  className="newsletter_img" src="./newsletter2.png" alt="" />
-        <div className="newsletter_desc">ChatGPT's new ‘Browse with Bing’: Watching AIs stalk you is odd</div>
-        </div>
-        </div>
 
 
         <div className='newletter_section'>
+    <Link to="https://www.linkedin.com/pulse/business-analyst-role-responsibilities-life-cycle-tools/?trackingId=m9zBRUpt7ELqqXAJId%2BiCg%3D%3D" target="_blank" rel="noopener noreferrer">
         <div className="newsletter_img_and_desc">
-        <img  className="newsletter_img" src="./newletter3.png" alt="" />
+            <img className="newsletter_img" src="./newsletter2.png" alt="" />
+            <div className="newsletter_desc">ChatGPT's new ‘Browse with Bing’: Watching AIs stalk you is odd</div>
+        </div>
+    </Link>
+</div>
+
+
+        <div className='newletter_section'>
+        <div className="newsletter_img_and_desc">     
+          <Link to= "https://www.linkedin.com/pulse/introduction-django-framework-building-web-applications/?trackingId=mkORTLqUCEW328ogigyPiQ%3D%3D" target="_blank" rel="noopener noreferrer">
+          <img  className="newsletter_img" src="./newletter3.png" alt="" />
         <div className="newsletter_desc">New Research Points to Causes for Brain Disorders with No Obvious Injury</div>
+        </Link>
         </div>
         </div>
 
+
+
         <div className='newletter_section'>
         <div className="newsletter_img_and_desc">
+          <Link to="https://www.linkedin.com/pulse/marketing-analytics-indeedinspiring/?trackingId=lFgrEs46oBqTijmohp8RKQ%3D%3D">
         <img className="newsletter_img" src="./newsletter4.png" alt="" />
         <div className="newsletter_desc">Self-Fixing and Auto-Code with AI: Debating the Pros and Cons</div>
+        </Link>
         </div>
         </div>
+     
+
 
 
       </div>

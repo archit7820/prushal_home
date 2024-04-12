@@ -1,5 +1,5 @@
 .Footer {
-    background-color: #0c0707;
+    background-color: #000000;
     color: #f1f0f0;
     padding: 30px 40px;
     font-family: "Inter",sans-serif;
@@ -56,5 +56,9 @@
   
   button:hover {
     background-color: #777;
+  }
+  .Link_footer{
+    text-decoration: none;
+   color: #a5a5a5;
   }
   

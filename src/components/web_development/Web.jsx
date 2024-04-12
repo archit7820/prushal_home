@@ -18,15 +18,18 @@ const Web = () => {
 
 <div className='servicce_title_headline'>Web Development</div>
 <div className='service_title_description'>Welcome to Prushal Technology, your one-stop destination for top-notch web development services. 
-   With a team of highly skilled developers and designers, we are passionate about crafting engaging and 
-   dynamic websites that leave a lasting impression on your target audience. Whether you need a stunning 
-   portfolio site to showcase your creative work, a robust e-commerce platform to boost your online sales, 
-   or a custom web application to streamline your business processes, we have the expertise to bring your vision 
-   to life. Our comprehensive web development solutions encompass responsive design, seamless functionality, and 
-   cutting-edge technologies to ensure your website stands out in the digital landscape. Partner with us to unleash 
-   the full potential of your online presence and take your business to new heights.
-</div>
+With a team of highly skilled developers and designers, we are passionate about crafting engaging and 
+dynamic websites that leave a lasting impression on your target audience.
+{'\n'} Whether you need a stunning 
+portfolio site to showcase your creative work, a robust e-commerce platform to boost your online sales, 
+or a custom web application to streamline your business processes, we have the expertise to bring your vision 
+to life. 
+{'\n'}
+Our comprehensive web development solutions encompass responsive design, seamless functionality, and 
+cutting-edge technologies to ensure your website stands out in the digital landscape. Partner with us to unleash 
+the full potential of your online presence and take your business to new heights.
 
+</div>
 
 
 <img src='img10.jpg' className = 'service_main_img' alt='' width= '100%'/>

@@ -26,7 +26,7 @@ export const Navbar = () => {
         <div className='LeftSection'>
           <Link to='/' className='Logo'>
             <img src="/prushallogo.png" alt="Prushal Technologies Logo"/>
-            <div className='text'>Prushal Technlogies</div>
+            <div className='text'>Prushal Tech.</div>
           </Link>
         </div>
         <div className='RightSection'>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import { Link } from 'react-router-dom';
 export const Footer = () => {
   return (
     <div className="footer_class">
@@ -7,13 +8,26 @@ export const Footer = () => {
       <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
 </style>
-        <h3>Prushal Technologies</h3>
+        <h3>Prushal Tech.</h3>
         <div className="Column">
-          <h4>Our Team</h4>
-        <p>About Us</p>
-        <p>Contact Us</p>
-        <p>Our Team</p>
-        <p>What We Do</p>
+      
+         <h4>Our Team</h4>
+      
+        <p> <Link className= "Link_footer" to="/about">About Us</Link></p>
+        <p>
+        <Link className= "Link_footer"to='/contact'>Contact Us</Link>
+        </p>
+        <p>
+        <Link className= "Link_footer"to="/blogs">Blogs</Link>
+        </p>
+        <p>
+        <Link className= "Link_footer"to='/services'>What We Do</Link>
+        </p>
+        
+        
+        
+  
+        
       </div>
       <div className="Column">
         <h4>More</h4>

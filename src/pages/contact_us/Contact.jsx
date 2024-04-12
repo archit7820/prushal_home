@@ -50,10 +50,10 @@ const Contact = () => {
 </p>
             <hr />
             <li>Branch Office</li>
-            <p>Sr.No.48/2 Plot no.4, First floor,
-Near FED bank
-( Nearest landmark – Vijay Sales)
-Chandannagar Kharadi Pune – 411014
+            <p>Indeed Inspiring Infotech
+Flat no 401
+Vrudhawan Vishwavilas Society,
+BAIF Road, wagoli Pune - 412207
 </p>
             <hr />
           </ul>
@@ -80,7 +80,7 @@ Chandannagar Kharadi Pune – 411014
     <div class="form_input_line_1">    
         <div class="form_left_section">
             <div class="form_field_name">Email</div>
-            <input type="email" id="email" class="form_field_input"/>
+            <input type="text" id="subject" class="form_field_input"/>
         </div>
         <div class="form_right_section">
             <div class="form_field_name">Subject</div>
